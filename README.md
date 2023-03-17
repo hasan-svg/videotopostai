@@ -1,11 +1,12 @@
 # videotopostai
- Using openAI API, transformers i have created my first public module to easily covert video into blog post or anyother type.
+ This Python package that uses the OpenAI API and the Transformers library to generate blog posts and titles based on YouTube videos. It makes it easy for users to create written content from videos without having to transcribe the audio themselves. 
 
  
 ## Features
 
 - Generate Blog Post from youtube video
 - Generate title for the blog post
+- The content passes AI content test
 - Custom prompt frature
 
 
@@ -32,7 +33,6 @@ See the test.py file for example.
 
 #### VideoScript(apikeyopenai=openai_api)
 ```
-get the transcript from a YouTube video
 video_url = 'SOURCE_YOUTUBE_LINK_HERE'
 transcript = script.videototext(video_url)
 ```
@@ -66,5 +66,10 @@ Contributions are always welcome!
 ## Feedback
 
 If you have any feedback, please reach out to us at hasan.trz@outlook.com
+
+## License
+
+[MIT](https://github.com/newstroopp2023/videotopostai/blob/main/LICENSE)
+
 
 
